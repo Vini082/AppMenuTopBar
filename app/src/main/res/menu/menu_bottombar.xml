@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mCompartilhar"
+        android:icon="@drawable/baseline_share"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mFavoritos"
+        android:icon="@drawable/baseline_favorite"
+        android:title="Favoritos"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mStatus"
+        android:icon="@drawable/baseline_update"
+        android:title="Status"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mConversas"
+        android:icon="@drawable/baseline_message"
+        android:title="Conversas"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mDownloads"
+        android:icon="@drawable/baseline_download"
+        android:title="Downloads"
+        app:showAsAction="ifRoom" />
+
+</menu>
